@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="samplee.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class=" bg-center bg-no-repeat bg-fixed " 
+style="background-image: url('/Screenshot\ 2024-07-22\ 203826.png')">
+ <nav  class="p-5   md:flex md:items-center md:justify-between "
+ style="background-image: url('/3d-modern-lighting-lamp-design\ -\ Copy.jpg')">
+    <div class="flex justify-between items-center">
+      <span class="text-2xl font-[poppins] cursor-pointer">
+        <img class="h-10 inline" src="/9110469_mountain_f_icon.png" alt=""> 
+      </span>
+      <span class="text-3xl cursor-pointer ma-2 mx-2 md:hidden block">
+         <ion-icon name="menu" onclick="Menu(this)" ></ion-icon>
+         
+      </span>
+     </div>  
+ <ul class="md:flex md:items-center z=[-1] md:z-auto md:static absolute  w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+    <li class="mx-6 my-6 md:my-0 " >
+      <a href="home.html" class="text-x0.03  text-white hover:text-black duration-500"  >HOME</a></li>
+    <li class="mx-6 my-6 md:my-0 ">
+      <a href="sample.html" class="text-x0.03 text-white hover:text-black duration-500">SAMPLE</a></li>
+    <li class="mx-6 my-6 md:my-0 ">
+      <a href="about.html" class="text-x0.03 text-white hover:text-black duration-500">ABOUT</a></li>
+    <li class="mx-6 my-6 md:my-0 ">
+      <a href="signin.html" class="text-x0.03 text-white hover:text-black duration-500">SIGN IN</a></li>
+ </ul>
+    </div>
+
+ </nav>
+
+ <div class="min-h-screen flex items-center bg-white">
+<div class="flex-1 max-w-4xl  p-10">
+<ul class="grid grid-cols-3  gap-3">
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/living-room-with-blue-sofa-gold-coffee-table.jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/sofa-living-room-decorated-with-brazilian-folklore-design\ 2.jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/modern-living-room-interior-design\ \(3\).jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/modern-apartment-with-comfortable-sofa-decor-generated-by-ai4.jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/modern-living-room-interior-design\ 5.jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/living-room-with-blue-sofa-gold-coffee-table.jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/pexels-heyho-69697847777.jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/888.jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/living-room-with-blue-sofa-large-painting-flower-wall6.jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/modern-living-room-interior-design\ \(3\).jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/sofa-living-room-decorated-with-brazilian-folklore-design\ 2.jpg')"><div class="w-10 h-24"></div></li>
+  <li class="bg-black rounded-lg shadow-xl bg-cover bg-center bg-no-repeat "
+  style="background-image: url('/modern-apartment-with-comfortable-sofa-decor-generated-by-ai4.jpg')"><div class="w-10 h-24"></div></li>
+  
+</ul>
+
+
+  <div class="absolute  top-52 right-10 max-w-sm  max-h-96 rounded overflow-hidden shadow-lg bg-white">
+      <img class="w-full" src="/IMG_0536.jpg" alt="Card Image">
+      
+</div>
+
+  
+  </div>
+ </div>
+ <script> 
+   function Menu(e){
+      let list = document.querySelector('ul');
+      if(e.name === 'menu'){
+        e.name = "close";
+        list.classList.add('top-[80px]');
+        list.classList.add('opacity-100');
+      } else {
+        e.name = "menu";
+        list.classList.remove('top-[80px]');
+        list.classList.remove('opacity-100');
+      }
+   }
+</script>
+
+
+
+</body>
+</html>
